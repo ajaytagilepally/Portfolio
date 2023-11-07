@@ -11,7 +11,7 @@ const Footer = () => {
         data-aos="zoom-out"
          className=" font-bold text-5xl sm:text-3xl">Let's Talk</h2>
         <div className=" flex items-center justify-center gap-8 sm:gap-5">
-          <a 
+          {/* <a 
           data-aos="fade-up" data-aos-duration="1000"
 
             href=""
@@ -19,11 +19,11 @@ const Footer = () => {
           >
             <FaTelegramPlane className=" text-black text-3xl hover:scale-125 cursor-pointer" />
             <p>Telegram</p>
-          </a>
+          </a> */}
           <a 
           data-aos="fade-up" data-aos-duration="1200"
 
-            href=""
+            href=" https://wa.me/qr/I4F4QFHEIRE5N1 "
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <IoLogoWhatsapp className=" text-black text-3xl hover:scale-125 cursor-pointer" />
@@ -32,7 +32,7 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1400"
 
-            href=""
+            href="https://instagram.com/ajay._.t?igshid=MTdoanU0NnN0czZhMg=="
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />
@@ -40,7 +40,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="sm:text-[12px]">
-          | Copyright &copy; <span>2023 Dev AlphaSpace </span> All rights reserved
+          | Copyright &copy; <span>2023 Ajay Tagilepally </span> All rights reserved
           <a href="#"></a> |
         </div>
       </div>

@@ -10,8 +10,9 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiExpress,
+  
 } from "react-icons/si";
-import { GrCode } from "react-icons/gr";
+import { IoLogoPython } from "react-icons/io";
 import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
@@ -47,13 +48,13 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar
                   logo={<SiJavascript />}
                   name={"Javascript"}
-                  value={80}
+                  value={60}
                 />
                 <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
                 <ProgressBar
                   logo={<SiTailwindcss />}
                   name={"Tailwind CSS"}
-                  value={80}
+                  value={60}
                 />
               </div>
             </div>
@@ -84,11 +85,11 @@ const Skills = ({ darkMode }) => {
               <SkillBox
                 className=""
                 logo={
-                  <GrCode/>
+                  <IoLogoPython/>
                 }
                 black={"black"}
                 white={"white"}
-                skill={"C++"}
+                skill={"Python"}
               />
               {/* <SkillBox
                 className=""
