@@ -10,6 +10,8 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiExpress,
+  SiReact,
+  SiMysql,
   
 } from "react-icons/si";
 import { IoLogoPython } from "react-icons/io";
@@ -62,27 +64,7 @@ const Skills = ({ darkMode }) => {
           {/* right box */}
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
-              <SkillBox
-                logo={<IoLogoNodejs />}
-                black={"white"}
-                white={"black"}
-                skill={"Node Js"}
-              />
-              <SkillBox
-                logo={<SiMongodb />}
-                black={"white"}
-                white={"black"}
-                skill={"MongoDB"}
-              />
-            </div>
-            <div className="last2 flex flex-col gap-10">
-              <SkillBox
-                logo={<SiExpress />}
-                black={"black"}
-                white={"white"}
-                skill={"Express Js"}
-              />
-              <SkillBox
+            <SkillBox
                 className=""
                 logo={
                   <IoLogoPython/>
@@ -91,7 +73,7 @@ const Skills = ({ darkMode }) => {
                 white={"white"}
                 skill={"Python"}
               />
-              {/* <SkillBox
+            <SkillBox
                 className=""
                 logo={
                   <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
@@ -99,7 +81,36 @@ const Skills = ({ darkMode }) => {
                 black={"black"}
                 white={"white"}
                 skill={"Next Js"}
-              /> */}
+              />
+              <SkillBox
+                logo={<SiReact />}
+                black={"black"}
+                white={"white"}
+                skill={"React Js"}
+              />
+              
+            </div>
+            <div className="last2 flex flex-col gap-10">
+            <SkillBox
+                logo={<IoLogoNodejs />}
+                black={"white"}
+                white={"black"}
+                skill={"Node Js"}
+              />
+              
+              <SkillBox
+                logo={<SiMongodb />}
+                black={"white"}
+                white={"black"}
+                skill={"MongoDB"}
+              />
+
+              <SkillBox
+                logo={<SiMysql />}
+                black={"white"}
+                white={"black"}
+                skill={"Mysql"}
+              />
             </div>
           </div>
         </div>

@@ -3,8 +3,8 @@
 export const data = [
   {
     id: 1,
-    img: 'https://i.postimg.cc/VkRWdHWx/57214s81.jpg',
-    title: "Multimedia Web",
+    img: 'https://i.postimg.cc/FzgLHRpk/Screenshot-2024-08-04-212310.jpg',
+    title: "Portfolio",
     desc: "",
     link: "",
     git: "",

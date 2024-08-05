@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
+import resumePDF from "../../assets/Ajay__TResume.pdf";
 
 
 const Hero = () => {
@@ -27,9 +27,9 @@ const Hero = () => {
               data-aos="fade-up"
               sequence={[
                 "Full Stack Developer",
-                2000,
+                3000,
                 "Software Developer",
-                2000,
+                3000,
                 "",
               ]}
               speed={30}
@@ -41,7 +41,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Lorem ipsum dolor sit amet consectetur
+              Welcome to My Portfolio
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -68,33 +68,21 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
+                <a href="https://github.com/ajaytagilepally">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/ajay-tagilepally-0b5016229">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://instagram.com/ajay._.t?igshid=MTdoanU0NnN0czZhMg==">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  {" "}
-                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
             </ul>
@@ -102,14 +90,13 @@ const Hero = () => {
         </div>
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
-            <img
+            {/* <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
-              // src={mine}
+              src='https://i.postimg.cc/Y0TYrcHB/ajay.jpg'
               alt="mine"
-            />
-            <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
+            /> */}
+            {/* <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
@@ -120,7 +107,7 @@ const Hero = () => {
                   className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
