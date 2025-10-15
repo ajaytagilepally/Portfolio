@@ -38,10 +38,10 @@ const Resume = () => {
                   Full Stack Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  CloudPlinth Technologies
+                  Siftic Digitech
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  June 2022 - Aug 2023
+                  Oct 2022 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                   <p>Project: Alerts Web App for Industrial Sensor Deviations.</p>
@@ -76,7 +76,7 @@ const Resume = () => {
                   JBIET.
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  2019 -  2022
+                  2018 -  2022
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 
