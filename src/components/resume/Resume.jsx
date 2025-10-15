@@ -38,7 +38,7 @@ const Resume = () => {
                   Full Stack Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Siftic Digitech
+                  Softic Digitech
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   Oct 2022 - Present
